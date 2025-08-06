@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        let trafficLight = "red";
+
+
+        if (trafficLight === "red") {
+            console.log("stop");
+        } else if (trafficLight === "yellow") {
+            console.log("get ready");
+        } else if (trafficLight === "green") {
+            console.log("go");
+        } else {
+            console.log("you are an animal");
+        }
+
+        // --- Using switch statement ---
+        switch (trafficLight) {
+            case "red":
+                console.log("stop");
+                break;
+            case "yellow":
+                console.log("get ready");
+                break;
+            case "green":
+                console.log("go");
+                break;
+            default:
+                console.log("you are an animal");
+                break;
+        }
+
+
+    </script>
+</body>
+
+</html>

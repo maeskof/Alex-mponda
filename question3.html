@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
-    
+    <script>
+        // division
+        let num1 = 5;
+        let num2 = 4;
+        let product = num1 / num2;
+        console.log(`${num1} / ${num2} = ${product}`);
+
+        // Logical NOT
+        let isAdult = true;
+        let hasID = false;
+        let canEnterClub = isAdult != hasID;
+        console.log(`Can enter club? ${canEnterClub}`); // false because hasID is false
+
+        // Ternary Operator 
+        let score = 75;
+        let result = (score >= 60) ? "Pass" : "Fail";
+        console.log(`Score = ${score} => ${result}`);
+
+        // Increment and Decrement Operators (++ and --)
+        let count = 10;
+        console.log(`Initial count: ${count}`);
+        count++;  // Increment
+        console.log(`After increment: ${count}`);
+        count--;  // Decrement
+        console.log(`After decrement: ${count}`);
+
+    </script>
 </body>
+
 </html>
