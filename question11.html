@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        // a. literal object
+
+
+        const postLiteral = {
+            order_id: "ORD-2025-00456",
+            customer: {
+                id: "CUST-1001",
+                name: "Joe doe",
+                email: "joedoe@gmail.com"
+            }
+            ,
+
+            address: {
+                stree: "45",
+                city: "lilongwe",
+                country: "malawi",
+                postal_code: "265",
+
+            },
+
+
+            items: [
+                {
+                    product_id: "p-001",
+                    name: "video",
+                    quantity: 2,
+                    price: 7500,
+                },
+                {
+                    productid: "p-002",
+                    name: "mechanical keyboard",
+                    quantity: 1,
+                    price: 25500
+                },
+            ],
+
+            payments: {
+                method: "mobile money",
+                phone: "0967675456",
+                transactionID: " TXN-900123",
+                success: "true"
+            },
+            delivery: {
+                method: "courier",
+                status: "in transit",
+                estimatedDelivery: "2025-08-10",
+            },
+            discount_codes: [
+                { NEWUSER10 },
+                { FREESHIP },
+            ],
+            orderTotal: "40500",
+            createdAt: " 2025-08-04T14:25;00z",
+            updatedAt: "2025-08-05T09:00:00Z"
+        }
+
+    </script>
+
+    <script>
+        //class object
+        class Post {
+            constructor(orderid, customer, address, items, payment, delivery, discountCodes, orderTotal, createdAt, updatedAt) {
+
+                this.orderid = orderid;
+                this.customer = customer;
+                this.address = address;
+                this.items = items;
+                this.paayment = payment;
+                this.delivery = delivery;
+                this.discountCodes = discountCodes;
+                this.orderTotal = orderTotal;
+                this.createdAt = createdAt;
+                this.updatedAt = updatedAt;
+            }
+        }
+
+        const orderid = new orderid(
+            "ORD-2025-00456"
+        )
+        const customer = new customer;
+        (
+            id: "CUST-1001",
+            name: "JOE DOE",
+            email: "joedoe@gmail.com",
+        )
+
+
+
+
+
+    </script>
+    <script>
+    // function constructor
+    function postFunction() {
+
+            constructor(order_id, customer, address, items, payment) = {
+                this.order_id = order_id;
+                this.customer = customer;
+                this.address = address;
+                this.items = items;
+                this.payment = payment
+
+            }
+        }
+        const PostFunction = new PostFunction(
+            "ORD-2025-00456",
+            {
+                id: "CUST-1001",
+                name: "Joe Doe",
+                email: "joedoe@gmail.co",
+            },
+            {
+                street: "43- independence",
+                city: "lilongwe",
+            }
+
+    </script>
+
+</body>
+
+</html>
